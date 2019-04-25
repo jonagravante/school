@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php die(); ?><!DOCTYPE html>
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8" />
@@ -33,11 +33,12 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='http://localhost/school/wp-includes/css/dist/block-library/style.min.css?ver=5.1.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='dashicons-css'  href='http://localhost/school/wp-includes/css/dashicons.min.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css'  href='http://localhost/school/wp-includes/css/admin-bar.min.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='http://localhost/school/wp-includes/css/dist/block-library/style.min.css?ver=5.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='divi-fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&#038;subset=latin,latin-ext' type='text/css' media='all' />
 <link rel='stylesheet' id='divi-style-css'  href='http://localhost/school/wp-content/themes/Divi/style.css?ver=3.22.4' type='text/css' media='all' />
 <link rel='stylesheet' id='et-builder-googlefonts-cached-css'  href='http://fonts.googleapis.com/css?family=Rubik%3A300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic%7CCabin+Sketch%3Aregular%2C700%7CSacramento%3Aregular&#038;ver=5.1.1#038;subset=latin,latin-ext' type='text/css' media='all' />
-<link rel='stylesheet' id='dashicons-css'  href='http://localhost/school/wp-includes/css/dashicons.min.css?ver=5.1.1' type='text/css' media='all' />
 <script type='text/javascript' src='http://localhost/school/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='http://localhost/school/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <link rel='https://api.w.org/' href='http://localhost/school/wp-json/' />
@@ -48,8 +49,17 @@ img.emoji {
 <link rel='shortlink' href='http://localhost/school/' />
 <link rel="alternate" type="application/json+oembed" href="http://localhost/school/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fschool%2F" />
 <link rel="alternate" type="text/xml+oembed" href="http://localhost/school/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fschool%2F&#038;format=xml" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="shortcut icon" href="" /><link rel="stylesheet" id="et-core-unified-cached-inline-styles" href="http://localhost/school/wp-content/cache/et/8/et-core-unified-15561670589827.min.css" onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)" /></head>
-<body class="home page-template-default page page-id-8 et_pb_button_helper_class et_transparent_nav et_fixed_nav et_show_nav et_cover_background et_pb_gutter et_pb_gutters3 et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_pb_footer_columns4 et_header_style_split et_pb_pagebuilder_layout et_right_sidebar et_divi_theme et-db et_minified_js et_minified_css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="shortcut icon" href="" /><style type="text/css" media="print">#wpadminbar { display:none; }</style>
+	<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+	<link rel="stylesheet" id="et-core-unified-cached-inline-styles" href="http://localhost/school/wp-content/cache/et/8/et-core-unified-15561670589827.min.css" onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)" /></head>
+<body class="home page-template-default page page-id-8 logged-in admin-bar no-customize-support et_pb_button_helper_class et_transparent_nav et_fixed_nav et_show_nav et_cover_background et_pb_gutter windows et_pb_gutters3 et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_pb_footer_columns4 et_header_style_split et_pb_pagebuilder_layout et_right_sidebar et_divi_theme et-db et_minified_js et_minified_css">
 	<div id="page-container">
 
 	
@@ -838,11 +848,12 @@ img.emoji {
 			</script>
 	<link rel='stylesheet' id='mediaelement-css'  href='http://localhost/school/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-mediaelement-css'  href='http://localhost/school/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=5.1.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://localhost/school/wp-includes/js/admin-bar.min.js?ver=5.1.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
 var et_shortcodes_strings = {"previous":"Previous","next":"Next"};
-var et_pb_custom = {"ajaxurl":"http:\/\/localhost\/school\/wp-admin\/admin-ajax.php","images_uri":"http:\/\/localhost\/school\/wp-content\/themes\/Divi\/images","builder_images_uri":"http:\/\/localhost\/school\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"56dec4048a","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"6c9b836a66","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","is_ab_testing_active":"","page_id":"8","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"yes","is_shortcode_tracking":"","tinymce_uri":""};
+var et_pb_custom = {"ajaxurl":"http:\/\/localhost\/school\/wp-admin\/admin-ajax.php","images_uri":"http:\/\/localhost\/school\/wp-content\/themes\/Divi\/images","builder_images_uri":"http:\/\/localhost\/school\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"d69ae8746e","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"bc8e308ba1","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","is_ab_testing_active":"","page_id":"8","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"yes","is_shortcode_tracking":"","tinymce_uri":""};
 var et_pb_box_shadow_elements = [];
 /* ]]> */
 </script>
@@ -860,10 +871,33 @@ var _wpmejsSettings = {"pluginPath":"\/school\/wp-includes\/js\/mediaelement\/",
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://localhost/school/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=5.1.1'></script>
-</body>
+	<!--[if lte IE 8]>
+		<script type="text/javascript">
+			document.body.className = document.body.className.replace( /(^|\s)(no-)?customize-support(?=\s|$)/, '' ) + ' no-customize-support';
+		</script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+		<script type="text/javascript">
+			(function() {
+				var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+						request = true;
+		
+				b[c] = b[c].replace( rcs, ' ' );
+				// The customizer requires postMessage and CORS (if the site is cross domain)
+				b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+			}());
+		</script>
+	<!--<![endif]-->
+			<div id="wpadminbar" class="nojq nojs">
+							<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Skip to toolbar</a>
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
+				<ul id='wp-admin-bar-root-default' class="ab-top-menu"><li id='wp-admin-bar-wp-logo' class="menupop"><a class='ab-item' aria-haspopup="true" href='http://localhost/school/wp-admin/about.php'><span class="ab-icon"></span><span class="screen-reader-text">About WordPress</span></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-wp-logo-default' class="ab-submenu"><li id='wp-admin-bar-about'><a class='ab-item' href='http://localhost/school/wp-admin/about.php'>About WordPress</a></li></ul><ul id='wp-admin-bar-wp-logo-external' class="ab-sub-secondary ab-submenu"><li id='wp-admin-bar-wporg'><a class='ab-item' href='https://wordpress.org/'>WordPress.org</a></li><li id='wp-admin-bar-documentation'><a class='ab-item' href='https://codex.wordpress.org/'>Documentation</a></li><li id='wp-admin-bar-support-forums'><a class='ab-item' href='https://wordpress.org/support/'>Support Forums</a></li><li id='wp-admin-bar-feedback'><a class='ab-item' href='https://wordpress.org/support/forum/requests-and-feedback'>Feedback</a></li></ul></div></li><li id='wp-admin-bar-site-name' class="menupop"><a class='ab-item' aria-haspopup="true" href='http://localhost/school/wp-admin/'>School Proj for 2019</a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-site-name-default' class="ab-submenu"><li id='wp-admin-bar-dashboard'><a class='ab-item' href='http://localhost/school/wp-admin/'>Dashboard</a></li></ul><ul id='wp-admin-bar-appearance' class="ab-submenu"><li id='wp-admin-bar-themes'><a class='ab-item' href='http://localhost/school/wp-admin/themes.php'>Themes</a></li><li id='wp-admin-bar-widgets'><a class='ab-item' href='http://localhost/school/wp-admin/widgets.php'>Widgets</a></li><li id='wp-admin-bar-menus'><a class='ab-item' href='http://localhost/school/wp-admin/nav-menus.php'>Menus</a></li><li id='wp-admin-bar-background' class="hide-if-customize"><a class='ab-item' href='http://localhost/school/wp-admin/themes.php?page=custom-background'>Background</a></li><li id='wp-admin-bar-customize-divi-theme' class="hide-if-no-customize"><a class='ab-item' href='http://localhost/school/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%2Fschool%2F&#038;et_customizer_option_set=theme'>Theme Customizer</a></li><li id='wp-admin-bar-customize-divi-module' class="hide-if-no-customize"><a class='ab-item' href='http://localhost/school/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%2Fschool%2F&#038;et_customizer_option_set=module'>Module Customizer</a></li></ul></div></li><li id='wp-admin-bar-comments'><a class='ab-item' href='http://localhost/school/wp-admin/edit-comments.php'><span class="ab-icon"></span><span class="ab-label awaiting-mod pending-count count-0" aria-hidden="true">0</span><span class="screen-reader-text">0 comments awaiting moderation</span></a></li><li id='wp-admin-bar-new-content' class="menupop"><a class='ab-item' aria-haspopup="true" href='http://localhost/school/wp-admin/post-new.php'><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-new-content-default' class="ab-submenu"><li id='wp-admin-bar-new-post'><a class='ab-item' href='http://localhost/school/wp-admin/post-new.php'>Post</a></li><li id='wp-admin-bar-new-media'><a class='ab-item' href='http://localhost/school/wp-admin/media-new.php'>Media</a></li><li id='wp-admin-bar-new-page'><a class='ab-item' href='http://localhost/school/wp-admin/post-new.php?post_type=page'>Page</a></li><li id='wp-admin-bar-new-project'><a class='ab-item' href='http://localhost/school/wp-admin/post-new.php?post_type=project'>Project</a></li><li id='wp-admin-bar-new-user'><a class='ab-item' href='http://localhost/school/wp-admin/user-new.php'>User</a></li></ul></div></li><li id='wp-admin-bar-edit'><a class='ab-item' href='http://localhost/school/wp-admin/post.php?post=8&#038;action=edit'>Edit Page</a></li><li id='wp-admin-bar-delete-cache'><a class='ab-item' href='http://localhost/school/wp-admin/index.php?action=delcachepage&#038;path=%2F&#038;_wpnonce=1380a77ed7' title='Delete cache of the current page'>Delete Cache</a></li><li id='wp-admin-bar-et-use-visual-builder'><a class='ab-item' href='http://localhost/school/?et_fb=1&#038;PageSpeed=off'>Enable Visual Builder</a></li></ul><ul id='wp-admin-bar-top-secondary' class="ab-top-secondary ab-top-menu"><li id='wp-admin-bar-search' class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://localhost/school/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><label for="adminbar-search" class="screen-reader-text">Search</label><input type="submit" class="adminbar-button" value="Search"/></form></div></li><li id='wp-admin-bar-my-account' class="menupop with-avatar"><a class='ab-item' aria-haspopup="true" href='http://localhost/school/wp-admin/profile.php'>Howdy, <span class="display-name">jon-y3</span><img alt='' src='http://1.gravatar.com/avatar/7970fdae418366909f502c412d330e04?s=26&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7970fdae418366909f502c412d330e04?s=52&#038;d=mm&#038;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-user-actions' class="ab-submenu"><li id='wp-admin-bar-user-info'><a class='ab-item' tabindex="-1" href='http://localhost/school/wp-admin/profile.php'><img alt='' src='http://1.gravatar.com/avatar/7970fdae418366909f502c412d330e04?s=64&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7970fdae418366909f502c412d330e04?s=128&#038;d=mm&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>jon-y3</span></a></li><li id='wp-admin-bar-edit-profile'><a class='ab-item' href='http://localhost/school/wp-admin/profile.php'>Edit My Profile</a></li><li id='wp-admin-bar-logout'><a class='ab-item' href='http://localhost/school/wp-login.php?action=logout&#038;_wpnonce=e0467cb7d5'>Log Out</a></li></ul></div></li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://localhost/school/wp-login.php?action=logout&#038;_wpnonce=e0467cb7d5">Log Out</a>
+					</div>
+
+		</body>
 </html>
 
-<!-- Dynamic page generated in 5.744 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2019-04-25 05:16:39 -->
-
-<!-- super cache -->
+<!-- Dynamic page generated in 19.442 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2019-04-25 05:13:27 -->
